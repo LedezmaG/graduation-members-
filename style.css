@@ -168,6 +168,19 @@ img {
     right: 0
 }
 
+.sticky{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.name{
+    text-transform: capitalize;
+}
+
+/* Media  */
+
 @media screen and (max-width:1200px) {
     #team {
         padding: 120px 0
@@ -225,15 +238,6 @@ img {
         margin: 15px 0
     }
 }
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1200px){
 	#team {
