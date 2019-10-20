@@ -21,7 +21,7 @@ img {
 .section-count>span {
     color: #e6e9f4;
     display: block;
-    font-size: 220px;
+    font-size: 90px;
     line-height: .7em;
 }
 .section-title {
@@ -36,7 +36,7 @@ img {
 }
 
 #team {
-    padding: 150px 0
+    padding: 5% 0
 }
 
 #team .team-section-text {
@@ -86,7 +86,7 @@ img {
 
 #team .team-list>ul>li.active::after {
     color: #3e6edf;
-    content: "";
+    content: "";
     font-family: fontawesome;
     margin-top: -10px;
     position: absolute;
@@ -168,6 +168,29 @@ img {
     right: 0
 }
 
+.sticky{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.sticky2{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.name{
+    text-transform: capitalize;
+}
+
+.side{
+    padding-top: 10%;
+}
+
+/* Media  */
+
 @media screen and (max-width:1200px) {
     #team {
         padding: 120px 0
@@ -226,15 +249,6 @@ img {
     }
 }
 
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1200px){
 	#team {
     padding: 120px 0;
@@ -242,10 +256,25 @@ img {
 }
 @media screen and (max-width: 991px){
 	#team {
-			padding: 90px 0;
+		padding: 90px 0;
 	}
 	#team .team-section-text {
     padding-bottom: 50px;
     padding-top: 0;
 }
 }
+
+
+@media only screen and (max-device-width: 480px) {
+   .movil-users{
+        display: flex;
+        overflow: scroll;
+        width: 700px;
+   }
+   .sticky2{
+        position: inherit;
+        top: 0;
+        height: 100%;
+   }
+ }
+
